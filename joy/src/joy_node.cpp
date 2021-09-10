@@ -563,8 +563,7 @@ public:
               {
                 joy_msg.axes[i] = 0.0;
               }
-              joy_msg.axes[1] = -1.0;
-              joy_msg.axes[2] = -1.0;
+              
             }
             if (default_trig_val_)
             {
